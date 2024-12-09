@@ -1,0 +1,36 @@
+.category-filter {
+    position: absolute;
+    top: 110px;
+    right: 30px; 
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-filter label {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .category-filter select {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+  }
+  
+  .breadcrumb a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .breadcrumb span {
+    margin: 0 10px;
+    color: #6c757d;
+  }

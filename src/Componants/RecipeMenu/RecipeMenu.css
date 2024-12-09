@@ -1,0 +1,89 @@
+.menu-container {
+    width: 60%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600px;
+}
+
+.menu-list {
+    margin-top: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.menu-item h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.dish-types {
+    font-size: 1em;
+    font-style: italic;
+    color: #555;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.diets {
+    font-size: 1em;
+    font-style: italic;
+    color: #555;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.dish-types .diets span {
+    font-weight: bold;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    padding-left:20px ;
+    padding-right: 20px;
+}
+
+.pagination button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+.recipe-link{
+    text-decoration: none;
+}
+
+.error-message {
+    text-align: center;
+    color: red;
+    font-size: 1.2em;
+    margin: 20px;
+}
+

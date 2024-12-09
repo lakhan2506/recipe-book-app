@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ef7560;
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    color: black;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    gap: 30px;
+}
